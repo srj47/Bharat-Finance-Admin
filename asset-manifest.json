@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/BharatFinanceAdmin/static/css/main.9600d391.css",
-    "main.js": "/BharatFinanceAdmin/static/js/main.3a7f882d.js",
-    "static/media/paymentSS.webp": "/BharatFinanceAdmin/static/media/paymentSS.3d1249ccbedb324dbe86.webp",
-    "static/media/QRcode.PNG": "/BharatFinanceAdmin/static/media/QRcode.0edc7d341ca4ec3ffc08.PNG",
-    "index.html": "/BharatFinanceAdmin/index.html",
-    "main.9600d391.css.map": "/BharatFinanceAdmin/static/css/main.9600d391.css.map",
-    "main.3a7f882d.js.map": "/BharatFinanceAdmin/static/js/main.3a7f882d.js.map"
+    "main.css": "/Bharat-Finance-Admin/static/css/main.9600d391.css",
+    "main.js": "/Bharat-Finance-Admin/static/js/main.2e9ed731.js",
+    "static/media/paymentSS.webp": "/Bharat-Finance-Admin/static/media/paymentSS.3d1249ccbedb324dbe86.webp",
+    "static/media/QRcode.PNG": "/Bharat-Finance-Admin/static/media/QRcode.0edc7d341ca4ec3ffc08.PNG",
+    "index.html": "/Bharat-Finance-Admin/index.html",
+    "main.9600d391.css.map": "/Bharat-Finance-Admin/static/css/main.9600d391.css.map",
+    "main.2e9ed731.js.map": "/Bharat-Finance-Admin/static/js/main.2e9ed731.js.map"
   },
   "entrypoints": [
     "static/css/main.9600d391.css",
-    "static/js/main.3a7f882d.js"
+    "static/js/main.2e9ed731.js"
   ]
 }
