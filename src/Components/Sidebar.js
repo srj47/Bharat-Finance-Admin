@@ -37,43 +37,43 @@ function Sidebar() {
           </center>
 
           <ul>
-            <li className="menu-item active">
+            <li className="menu-item  active">
               <Link to="/Super-Admin-Dashboard">
                 <i className="bi bi-box"></i>Dashboard
               </Link>
             </li>
-            <li className="menu-item">
+            <li className="menu-item ">
               <Link to="/support-request">
                 <i className="bi bi-question-octagon"></i>Support Requests
               </Link>
             </li>
-            <li className="menu-item">
+            <li className="menu-item ">
               <Link to="/Received-Payment">
                 <i className="bi bi-wallet2"></i>Received Payment
               </Link>
             </li>
-            <li className="menu-item">
+            <li className="menu-item ">
               <Link to="/Direct-Withdraw-Request">
                 <i className="bi bi-wallet2"></i>Direct Withdraw Request
               </Link>
             </li>
-            <li className="menu-item">
+            <li className="menu-item ">
               <Link to="/Ads-View-Withdraw-Request">
                 <i className="bi bi-wallet2"></i>Ads View Withdraw Request
               </Link>
             </li>
 
-            <li className="menu-item">
+            <li className="menu-item ">
               <Link to="/">
                 <i className="bi bi-box-arrow-left"></i>Logout
               </Link>
             </li>
-            {/* <li className="menu-item">
+            {/* <li className="menu-item ">
               <Link to="/profile" onClick={() => toggleSubMenu(0)}>
                 <i className="bi bi-person-square"></i>Profile{" "}
               </Link>
             </li>
-            <li className="menu-item">
+            <li className="menu-item ">
               <Link to="#" onClick={() => toggleSubMenu(1)}>
                 <i className="bi bi-people"></i>Team{" "}
                 {activeMenu === 1 ? "-" : "+"}
@@ -91,7 +91,7 @@ function Sidebar() {
                 </li>
               </ul>
             </li>
-            <li className="menu-item">
+            <li className="menu-item ">
               <Link to="#" onClick={() => toggleSubMenu(2)}>
                 <i className="bi bi-dice-4"></i>Task{" "}
                 {activeMenu === 2 ? "-" : "+"}
@@ -109,7 +109,7 @@ function Sidebar() {
                 </li>
               </ul>
             </li>
-            <li className="menu-item">
+            <li className="menu-item ">
               <Link to="#" onClick={() => toggleSubMenu(3)}>
                 <i className="bi bi-coin"></i>Deposit{" "}
                 {activeMenu === 3 ? "-" : "+"}
@@ -128,7 +128,7 @@ function Sidebar() {
                 </li>
               </ul>
             </li>
-            <li className="menu-item">
+            <li className="menu-item ">
               <Link to="#" onClick={() => toggleSubMenu(5)}>
                 <i className="bi bi-question-octagon"></i>Support{" "}
                 {activeMenu === 5 ? "-" : "+"}
@@ -147,7 +147,7 @@ function Sidebar() {
               </ul>
             </li> */}
 
-            {/* <li className="menu-item">
+            {/* <li className="menu-item ">
               <Link to="#" onClick={() => toggleSubMenu(7)}>
                 <i className="bi bi-wallet2"></i> Withdraw{" "}
                 {activeMenu === 7 ? "-" : "+"}
@@ -171,7 +171,7 @@ function Sidebar() {
                 </li>
               </ul>
             </li>
-            <li className="menu-item">
+            <li className="menu-item ">
               <Link to="/refer">
                 <i className="bi bi-share-fill"></i>Refers
               </Link>

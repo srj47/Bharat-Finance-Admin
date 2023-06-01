@@ -11,8 +11,18 @@ import AdsViewWithdrawRequest from "./SuperAdmin/AdsViewWithdrawRequest";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Sidebar />
+              <NavBar />
+              <SuperAdminDashboard />
+            </>
+          }
+        />
         <Route
           path="/Super-Admin-Dashboard"
           element={

@@ -15,7 +15,7 @@ const SuperAdminDashboard = () => {
           चूका है | धन्यवाद (Bharat Finance Team)
         </marquee>
       </div> */}
-      <div className="row mx-0 p-4">
+      {/* <div className="row mx-0 p-4">
         <div className="col-sm-12 text-center p-4 border border-warning  ">
           <h3>Admin Details</h3>
           <h5 className="text-warning">MANOJ CHAUHAN</h5>
@@ -24,7 +24,7 @@ const SuperAdminDashboard = () => {
           <span className="inactiveTag">Inactive</span>
         </div>
         <div className="col-sm-6"></div>
-      </div>
+      </div> */}
       {/* <div className="row mx-0 p-4">
         <div className="col-sm-12 p-4 metalic-color rounded text-light">
           <div className="row mx-0 px-0">

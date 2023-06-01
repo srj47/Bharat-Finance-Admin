@@ -17,6 +17,7 @@ const ReceivedPayment = () => {
                 <th scope="col">Transaction ID </th>
                 <th scope="col">Date</th>
                 <th scope="col">Amount</th>
+                <th scope="col"></th>
               </tr>
             </thead>
             <tbody>
@@ -25,18 +26,16 @@ const ReceivedPayment = () => {
                   1
                 </th>
                 <td className="text-white">
-                  <img
-                    src={paymentImg1}
-                    className="w-auto"
-                    height="400px"
-                    alt=" ... "
-                  />
+                  <PaymentSlipView />
                 </td>
                 <td className="text-white">TR44899</td>
                 <td className="text-white">Sachin</td>
                 <td className="text-white">8754456498</td>
                 <td className="text-white">06-12-2022</td>
                 <td className="text-white">8900</td>
+                <td className="text-white">
+                  <button className="btn btn-info">Activate</button>
+                </td>
               </tr>
             </tbody>
           </table>
@@ -47,3 +46,50 @@ const ReceivedPayment = () => {
 };
 
 export default ReceivedPayment;
+
+const PaymentSlipView = (params) => {
+  return (
+    <>
+      <div>
+        {/* Button trigger modal */}
+        <button
+          type="button"
+          className="btn btn-info"
+          data-bs-toggle="modal"
+          data-bs-target={`#Model-for-${params.paymentId}`}
+        >
+          View
+        </button>
+        {/* Modal */}
+        <div
+          className="modal fade"
+          id={`Model-for-${params.paymentId}`}
+          tabIndex={-1}
+          aria-labelledby={`Model-for-${params.paymentId}-Label`}
+          aria-hidden="true"
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header text-black">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                />
+              </div>
+              <div className="modal-body text-black text-center">
+                <img
+                  src={paymentImg1}
+                  className="w-auto"
+                  height="400px"
+                  alt=" ... "
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
